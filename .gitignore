@@ -1,3 +1,8 @@
+# Ignore Python env and compiled files
 api/.env
-node_modules/
+__pycache__/
+*.pyc
+
+# Ignore node_modules
+frontend/node_modules/
 .gitignore
